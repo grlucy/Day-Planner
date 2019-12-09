@@ -1,8 +1,16 @@
+/* HEADER */
 .jumbotron {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+/* DATE */
 #date {
+  margin-bottom: 40px;
+}
+
+/* SCHEDULE SECTION */
+#schedule {
   margin-bottom: 40px;
 }
 .hour {

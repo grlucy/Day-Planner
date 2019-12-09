@@ -13,7 +13,7 @@
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"
     ></script>
-    <!-- Moment.js CDN --- See Docs: https://momentjs.com/docs/ -->
+    <!-- Moment.js CDN - See Docs: https://momentjs.com/docs/ -->
     <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
     <!--Bootstrap CDN-->
     <link
@@ -23,24 +23,28 @@
       crossorigin="anonymous"
     />
     <!--Custom CSS-->
-    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
   <body>
     <header>
       <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
+          <!-- HEADER -->
           <h1>Work Day Scheduler</h1>
-          <h5>A simple calendar app for scheduling your work day</h3>
+          <h6><em>A simple calendar app for scheduling your work day</em></h6>
         </div>
       </div>
     </header>
     <section>
       <div class="container text-center">
+        <!-- DATE -->
         <h1 id="date">Today is</h1>
       </div>
     </section>
-    <section>
+    <!-- SCHEDULE SECTION -->
+    <section id="schedule">
       <div class="container">
+        <!-- 9 AM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -50,6 +54,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 10 AM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -59,6 +64,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 11 AM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -68,6 +74,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 12 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -77,6 +84,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 1 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -86,6 +94,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 2 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -95,6 +104,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 3 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -104,6 +114,7 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 4 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour">
@@ -113,12 +124,17 @@
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
+        <!-- 5 PM -->
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="hour last-hour">
               <p>5:00 PM</p>
             </div>
-            <textarea class="hourNotes last-hourNotes" id="5PM" rows="2"></textarea>
+            <textarea
+              class="hourNotes last-hourNotes"
+              id="5PM"
+              rows="2"
+            ></textarea>
             <button class="saveBtn"><i class="far fa-save"></i></button>
           </div>
         </div>
