@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Day Planner</title>
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/51e99565ca.js"></script>
     <!--jQuery CDN-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
@@ -20,6 +22,107 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./Assets/css/style.css">
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1>Work Day Scheduler</h1>
+          <h5>A simple calendar app for scheduling your work day</h3>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container text-center">
+        <h1 id="date">Today is</h1>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>9:00 AM</p>
+            </div>
+            <textarea class="hourNotes" id="9AM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>10:00 AM</p>
+            </div>
+            <textarea class="hourNotes" id="10AM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>11:00 AM</p>
+            </div>
+            <textarea class="hourNotes" id="11AM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>12:00 PM</p>
+            </div>
+            <textarea class="hourNotes" id="12PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>1:00 PM</p>
+            </div>
+            <textarea class="hourNotes" id="1PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>2:00 PM</p>
+            </div>
+            <textarea class="hourNotes" id="2PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>3:00 PM</p>
+            </div>
+            <textarea class="hourNotes" id="3PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour">
+              <p>4:00 PM</p>
+            </div>
+            <textarea class="hourNotes" id="4PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="hour last-hour">
+              <p>5:00 PM</p>
+            </div>
+            <textarea class="hourNotes last-hourNotes" id="5PM" rows="2"></textarea>
+            <button class="saveBtn"><i class="far fa-save"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
