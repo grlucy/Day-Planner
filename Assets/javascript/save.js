@@ -1,6 +1,5 @@
 $(document).ready(function() {
   // Clicking on the save button will store the time and user input in `localStorage`.
-
   $(".saveBtn").on("click", function() {
     let clickID = $(this).attr("id");
     let textID;
@@ -42,4 +41,19 @@ $(document).ready(function() {
         localStorage.setItem("05PMtext", textID);
     }
   });
+
+  // Saved data from localStorage is loaded into textareas
+  function loadScheduleData() {
+    $("#09AM").text(localStorage.getItem("09AMtext"));
+    $("#10AM").text(localStorage.getItem("10AMtext"));
+    $("#11AM").text(localStorage.getItem("11AMtext"));
+    $("#12PM").text(localStorage.getItem("12PMtext"));
+    $("#01PM").text(localStorage.getItem("01PMtext"));
+    $("#02PM").text(localStorage.getItem("02PMtext"));
+    $("#03PM").text(localStorage.getItem("03PMtext"));
+    $("#04PM").text(localStorage.getItem("04PMtext"));
+    $("#05PM").text(localStorage.getItem("05PMtext"));
+  }
+
+  loadScheduleData();
 });
