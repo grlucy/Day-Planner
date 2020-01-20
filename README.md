@@ -2,11 +2,12 @@
 
 ## Description
 
-This is the site I made for the University of Richmond Bootcamp Homework #5: Day Planner assignment. I used HTML, Git, CSS, Bootstrap, JavaScript,, jQuery, and Moment.js to develop a calendar application that allows the user to save events for each hour of the day. I made this site fully responsive through Bootstrap. It is deployed on Github Pages at: https://grlucy.github.io/Day-Planner/
+A calendar application that allows the user to save events for each hour of the day. I made this site fully responsive through Bootstrap. It is deployed on Github Pages at: https://grlucy.github.io/Day-Planner/
 
 This web browser application is intended for use as a daily schedule planner to keep track of important events, meetings, and deadlines during the work day on an hourly basis. It enables professionals to see their day at a glance, schedule time effectively, and improve productivity.
 
-In building this day planner, I learned about Moment.js, jQuery, and using "this" with jQuery on click events. I also learned about using a screen recorder to create UI gifs.
+Technologies used:
+> HTML, Git, CSS, Bootstrap, JavaScript, jQuery, and Moment.js
 
 ## UI
 
